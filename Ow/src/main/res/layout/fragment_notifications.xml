@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools=" http://schemas.android.com/tools"
+    tools:ignore="MissingPrefix"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#FDC101">
+    
+    <LinearLayout 
+   	    android:background="#147EBA"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="60dp">
+   	    
+   	    <ImageView android:src="@drawable/button_contacts"
+   	        android:id="@+id/contactsImageView"
+   	        android:layout_gravity="center"
+   	        android:layout_width="46dp"
+   	        android:layout_height="46dp" />    
+        
+	   	<TextView
+	   	    android:text="@string/notifications"
+	   	    android:textSize="28sp"
+	   	    android:textColor="#ffffff"
+	   	    android:gravity="center"
+	   	    android:layout_weight="1"
+	   	    android:layout_width="0dp"
+	   	    android:layout_height="60dp"
+	   	    fontPath="fonts/MavenPro-Bold.ttf" />
+	   	
+   	    <View android:layout_gravity="center"
+   	        android:layout_width="46dp"
+   	        android:layout_height="46dp" />    
+   	    
+    </LinearLayout>       
+
+    <ListView
+        android:id="@+id/notificationsListView"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+       	
+</LinearLayout>

@@ -1,0 +1,18 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        jcenter()
+        maven { url 'https://www.testfairy.com/maven' }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.0.0'
+        classpath 'com.testfairy.plugins.gradle:testfairy:1.+'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+}

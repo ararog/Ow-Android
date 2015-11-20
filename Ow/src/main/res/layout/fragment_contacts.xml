@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools=" http://schemas.android.com/tools"
+    tools:ignore="MissingPrefix"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#FDC101">
+
+    <LinearLayout 
+   	    android:background="#147EBA"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="60dp">
+   	    
+   	    <ImageView android:src="@drawable/button_settings"
+   	        android:id="@+id/settingsImageView"
+   	        android:layout_gravity="center"
+   	        android:layout_width="46dp"
+   	        android:layout_height="46dp" />
+
+        <FrameLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent">
+
+                <ProgressBar
+                    android:id="@+id/indicatorView"
+                    android:visibility="gone"
+                    android:layout_gravity="center"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp" />
+                
+                <TextView
+                    android:id="@+id/titleLabel"
+                    android:text="@string/contacts"
+                    android:textSize="28sp"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    fontPath="fonts/MavenPro-Bold.ttf" />
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+   	    <ImageView android:src="@drawable/button_add"
+   	        android:id="@+id/addImageView"
+   	        android:layout_gravity="center"
+   	        android:layout_width="46dp"
+   	        android:layout_height="46dp" />    
+	   		   	
+    </LinearLayout>   	
+   		    
+    <ListView
+        android:id="@+id/contactsListView"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"   
+       	android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    
+    <LinearLayout 
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="60dp">
+   	    
+   	    <ImageView android:src="@drawable/button_mute"
+   	        android:id="@+id/soundImageView"
+   	        android:layout_gravity="center"
+   	        android:layout_width="46dp"
+   	        android:layout_height="46dp" />    
+        
+	   	<TextView
+	   	    android:textColor="#ffffff"
+	   	    android:gravity="center"
+	   	    android:layout_weight="1"
+	   	    android:layout_width="0dp"
+	   	    android:layout_height="60dp"
+	   	    fontPath="fonts/MavenPro-Bold.ttf" />
+	   	
+	   	<LinearLayout android:orientation="horizontal"
+   	        android:layout_width="86dp"
+   	        android:layout_height="46dp">
+   	        
+	   	    <ImageView android:src="@drawable/button_notifications"
+	   	        android:id="@+id/notificationsImageView"
+	   	        android:layout_weight="1"
+	   	        android:layout_width="0dp"
+	   	        android:layout_height="fill_parent" />
+	   	    
+		   	<TextView
+   	        	android:id="@+id/countLabel"
+		   	    android:textColor="#ffffff"
+		   	    android:gravity="start|center_vertical"
+		   	    android:layout_width="40dp"
+		   	    android:layout_height="fill_parent"
+		   	    fontPath="fonts/MavenPro-Bold.ttf"
+		   	    android:visibility="gone" />
+   	    </LinearLayout>    
+    </LinearLayout>   	
+
+</LinearLayout>

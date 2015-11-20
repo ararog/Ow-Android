@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools=" http://schemas.android.com/tools"
+    tools:ignore="MissingPrefix"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FDC101">
+    
+   	<TextView
+   	    android:text="@string/register"
+   	    android:background="#147EBA"
+   	    android:textSize="28sp"
+   	    android:textColor="#ffffff"
+   	    android:gravity="center"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="60dp"
+   	    fontPath="fonts/MavenPro-Bold.ttf" />
+    
+    <com.neopixl.pixlui.components.edittext.EditText
+        android:id="@+id/codeField"
+        android:background="#FDC101"
+   	    android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:hint="@string/code"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingTop="25dp"
+        fontPath="fonts/MavenPro-Bold.ttf" />
+    
+    <com.neopixl.pixlui.components.button.Button 
+        android:id="@+id/confirmButton"
+    	android:background="#FDC101"
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+   	    android:textSize="18sp"
+	    android:textColor="#ffffff"
+        android:text="@string/confirm"
+        fontPath="fonts/MavenPro-Bold.ttf" />
+		
+</LinearLayout>

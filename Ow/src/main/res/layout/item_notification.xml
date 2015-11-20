@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools=" http://schemas.android.com/tools"
+    tools:ignore="MissingPrefix"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="vertical"
+    android:background="#FDC101">
+    
+    <LinearLayout 
+        android:layout_height="20dp" 
+	    android:layout_width="fill_parent">
+
+		<TextView 
+		    android:id="@+id/nameLabel"
+		    android:layout_height="fill_parent" 
+		    android:layout_width="0dp"
+		    android:layout_weight="1"
+		    android:textSize="16sp"
+		    android:textColor="#ffffff"
+            fontPath="fonts/MavenPro-Bold.ttf" />
+        
+       	<TextView 
+		    android:id="@+id/dateLabel"
+		    android:layout_height="fill_parent" 
+		    android:layout_width="fill_parent"
+		    android:gravity="end"  
+		    android:textSize="16sp"
+		    android:textColor="#ffffff"
+            fontPath="fonts/MavenPro-Regular.ttf" />
+    </LinearLayout>
+
+   	<TextView 
+	    android:id="@+id/descriptionLabel"
+	    android:layout_height="20dp" 
+	    android:layout_width="fill_parent"
+	    android:textSize="16sp"
+	    android:textColor="#ffffff"
+        fontPath="fonts/MavenPro-Regular.ttf" />
+	
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ow</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="country">Country</string>
+    <string name="settings">Settings</string>
+    <string name="contacts">Contacts</string>
+    <string name="notifications">Notifications</string>
+    <string name="country_code">Country</string>
+    <string name="phone_number">Phone Number</string>
+	<string name="code">Code</string>
+	<string name="confirm">Confirm</string>
+	<string name="search">Search</string>
+	<string name="choose_country">Choose a Country</string>
+	<string name="cancel">Cancel</string>
+	<string name="choose_notification">Notification</string>
+	<string name="wait">Wait</string>
+	<string name="about">About</string>
+	<string name="tell_to_friend">Tell to a friend</string>
+	<string name="vibrate_notify">Vibrate to notify</string>
+	<string name="delete_notifications">Delete all notifications</string>
+	<string name="yes">Yes</string>
+	<string name="no">No</string>
+	<string name="are_you_really_notifications">Are you really want delete all notifications?</string>
+	<string name="attention">Attention!</string>
+	<string name="share_text">Try Ow today in your smartphone. Download at http://ow.com/download!</string>
+	<string name="share_subject">Ow Notifier: iPhone, Android and Windows Phone</string>
+	<string name="notification_message">%1$s warned: %2$s</string>
+					
+</resources>

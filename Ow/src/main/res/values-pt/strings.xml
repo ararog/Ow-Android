@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ow</string>
+    <string name="login">Entrar</string>
+    <string name="register">Criar Conta</string>
+    <string name="country">País</string>
+    <string name="settings">Configurações</string>
+    <string name="contacts">Contatos</string>
+    <string name="notifications">Notificações</string>
+    <string name="country_code">País</string>
+    <string name="phone_number">Telefone</string>
+	<string name="code">Código</string>
+	<string name="confirm">Confirmar</string>
+	<string name="search">Buscar</string>
+	<string name="choose_country">Escolha um País</string>
+	<string name="cancel">Cancelar</string>
+	<string name="choose_notification">Notificação</string>
+	<string name="wait">Aguarde</string>
+	<string name="about">Sobre</string>
+	<string name="tell_to_friend">Contar para um amigo</string>
+	<string name="vibrate_notify">Vibrar ao notificar</string>
+	<string name="delete_notifications">Apagar todas as notificacoes</string>
+	<string name="yes">Sim</string>
+	<string name="no">Não</string>
+	<string name="are_you_really_notifications">Você deseja realmente apagar todas as notificações?</string>
+	<string name="attention">Atenção!</string>
+	<string name="share_text">Instale o Ow hoje em seu smartphone. Baixe em http://ow.com/download!</string>
+	<string name="share_subject">Ow Notificador: iPhone, Android e Windows Phone</string>
+	<string name="notification_message">%1$s avisou: %2$s</string>
+		
+</resources>
